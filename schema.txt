@@ -1,0 +1,24 @@
+Schema:
+
+<table: "Stars">
+tessid: primary key; BIGINT; NOT NULL
+2massid: VARCHAR (some null)
+gaiaid: BIGINT (this has worked so far, but names are very large numbers)
+sector: VARCHAR
+magnitude: INT
+luminosity: INT
+star_mass: INT    	(There are a lot of NANs in the data for this column)
+star_radius: INT	(There are a lot of NANs in the data for this column)
+constellation: VARCHAR
+disposition: VARCHAR
+rightascension: VARCHAR
+declination: VARCHAR
+
+<table: "Planets">
+planetid: primary key; VARCHAR
+tessid: foreign key; BIGINT; NOT NULL
+orbit_period: FLOAT; format: (4,1)
+planet_mass: FLOAT; format: (2,2)
+planet_radius: FLOAT; format: (2,2)
+
+
