@@ -65,7 +65,7 @@ ptyprocess==0.5.2
 py==1.4.34
 
 py-openaq==1.1.0
-pycryptodome==3.4.7
+pycryptodome==3.6.6
 Pygments==2.2.0
 pyisbn==1.1.0
 pymongo==3.4.0
