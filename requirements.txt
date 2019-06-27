@@ -5,7 +5,7 @@ backports.weakref==1.0rc1
 beautifulsoup4==4.6.0
 
 
-Flask==0.12
+Flask==0.12.3
 Flask-SQLAlchemy==2.4.0
 ftfy==4.4.3
 future==0.16.0
