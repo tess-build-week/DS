@@ -28,7 +28,7 @@ jsonfield==2.0.2
 jsonschema==2.6.0
 
 Markdown==2.2.0
-markdown2==2.3.4
+markdown2==2.4.0
 MarkupSafe==1.0
 matplotlib==2.0.2
 mistune==0.8.1
